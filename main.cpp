@@ -397,7 +397,7 @@ extern "C" void* ThreadStats(void*) {
   return nullptr;
 }
 
-static const string mainnet_seeds[] = {"zeroseed1.alltheco.in", "seed1.zero-zed.com", ""};
+static const string mainnet_seeds[] = {"zeroseed1.alltheco.in", "zeroseed2.alltheco.in", "seed1.zero-zed.com", ""};
 static const string testnet_seeds[] = {"testnet-seed1.zero-zed.com",
                                        ""};
 static const string *seeds = mainnet_seeds;
